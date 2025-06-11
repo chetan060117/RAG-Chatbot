@@ -97,7 +97,7 @@ def whatsapp_reply():
             reports = os.listdir("Reports")
             if 0 <= index < len(reports):
                 # Create a URL pointing to your report endpoint using your ngrok domain.
-                file_url = f"https://d733-2405-201-c015-100a-dcc8-c6af-79bc-dbe5.ngrok-free.app/report/{index}"
+                file_url = f"(write your url)/report/{index}"
                 msg = resp.message("Here is your report:")
                 msg.media(file_url)
             else:

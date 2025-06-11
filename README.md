@@ -46,10 +46,15 @@ A Flask-based, RAG-powered WhatsApp chatbot that lets customers ask questions ab
 
 .
 ├── Reports/                  # PDF reports available via “get report”
+
 ├── filter.pdf                # Main product manual for Q&A
+
 ├── app.py                    # Flask application and LangChain logic
+
 ├── requirements.txt          # Python dependencies
+
 ├── .env                      # Environment variables 
+
 └── README.md                 # This file
 
 ## 🤝 Contributing
